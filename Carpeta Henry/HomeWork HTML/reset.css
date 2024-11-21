@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos base para el cuerpo */
+  body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Estilos para elementos específicos */
+  ul, ol {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Estilos para tablas */
+  table {
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilos para imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para formularios */
+  input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  /* Estilos para enlaces */
+  a {
+    color: #000;
+  }
+  
+  /* Estilos para encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  /* Estilos para códigos */
+  code {
+    font-family: monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+  }
+  
+  /* Estilos para citas */
+  blockquote, q {
+    quotes: none;
+  }
+  
+  /* Estilos para tablas de datos */
+  th {
+    text-align: left;
+  }
+  
+  /* Estilos para elementos bloque */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }

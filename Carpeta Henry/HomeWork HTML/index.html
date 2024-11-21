@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./estilos.css">
 </head>
-<body>
+<body >
     <header>
-        <h1>Hola mundo</h1>
-        
+        <div id="titulo">
+            <h1 class="title" id="Principal">Hola mundo</h1>
+            <h2>Santiago</h2>
+        </div>
     </header>
     <hr>
     <main>
         <section>
-            <h2>esta es una nueva</h2>
-            <p>en esta pagina estare explorando mis habilidades en html</p>
+            <h2 class="title">esta es una nueva</h2>
+            <p class="miTexto">en esta pagina estare explorando mis habilidades en html</p>
            <article> 
-            <h3>Aqui explorare</h3>
+            <h3 class="title">Aqui explorare</h3>
             <p>explorare y practicare y asi obtendre muchos conocimientos como:</p>
             <ul>
                 <li>Crear paginas</li>
@@ -25,9 +29,22 @@
             </ul>
             </article>
         </section>
-        <section>
-            <img src="https://picsum.photos/200/300" alt="imgen">
-        </section>
+        <article>
+            <div id="cards-container">
+                <div class="card">
+                    <h4 class="title">imagen 1</h4>
+                    <img src="https://picsum.photos/200/300" alt="imgen" class="imagen">
+                </div>    
+                <div class="card">
+                    <h4 class="title">imagen 2</h4>
+                    <img src="https://picsum.photos/200/300" alt="imgen" class="imagen">
+                </div>  
+                <div class="card">
+                    <h4 class="title">imagen 3</h4>
+                    <img src="https://picsum.photos/200/300" alt="imgen" class="imagen">
+            </div> 
+        </div> 
+        </article>
     </main>
     <footer>
         <h6>Derechos reservaaados SC</h6>
